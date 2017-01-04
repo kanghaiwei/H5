@@ -1,12 +1,6 @@
 var mySwiper = new Swiper ('.swiper-container', {	
 	direction: 'vertical',
 	loop: false,
-
-	// 如果需要前进后退按钮
-	nextButton: '.swiper-button-next',
-	prevButton: '.swiper-button-prev',
-
-
 	onInit: function(swiper){ //Swiper2.x的初始化是onFirstInit
     	swiperAnimateCache(swiper); //隐藏动画元素 
     	swiperAnimate(swiper); //初始化完成开始动画
